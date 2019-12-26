@@ -18,6 +18,15 @@ ul {
 
 header {
     overflow: auto;
+    border-bottom: solid 2px #F3F3F3;
+}
+
+.header-title {
+    width: 20%;
+}
+
+.header-breadcrumb, .header-user-menu {
+    width: 40%;
 }
 
 .header-title, .header-breadcrumb {
@@ -26,15 +35,27 @@ header {
 
 .header-user-menu {
     float: right;
+    text-align: end;
 }
 
 .header-title h1 {
     font-size: 18px;
     font-weight: 400;
+    margin: 0;
 }
 
 .header-breadcrumb ul li {
     display: inline-block;
+    margin-right: 15px;
+}
+
+.header-breadcrumb ul li:after {
+    content: "/";
+    margin-left: 15px;
+}
+
+.header-breadcrumb ul li:last-child:after {
+    content: none;
 }
 
 .header-title, .header-breadcrumb {
@@ -43,6 +64,33 @@ header {
 
 .header-user-menu {
     float: right;
+}
+
+.nav-menu {
+    background-color: #EBEBEB;
+}
+
+.nav-menu li {
+    padding: 10px;
+}
+
+.nav-menu li {
+    border-left: solid 3px #EBEBEB;
+}
+
+.nav-menu li:not(.nav-submenu-selected):hover {
+    background-color: #BCBCBC;
+    border-left: solid 3px #BCBCBC;
+}
+
+.nav-menu .nav-opened-menu, .nav-menu .nav-submenu {
+    background-color: #D8D8D8;
+    border-left: solid 3px #D8D8D8;
+}
+
+.nav-menu .nav-submenu-selected{
+    background-color: #BCBCBC;
+    border-left: solid 3px #557FB7;
 }
 
 .nav-menu, .options-from-menu {
