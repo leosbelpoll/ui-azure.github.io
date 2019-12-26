@@ -38,9 +38,20 @@ header {
 }
 
 .header-user-menu {
-    float: right;
-    text-align: end;
+    display: flex;
+    flex-direction: row-reverse;
     padding-right: 13px;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.header-user-menu img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.header-user-menu * {
+    margin-left: 25px;
 }
 
 .header-title h1 {
