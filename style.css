@@ -1,0 +1,56 @@
+* {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    overflow: auto;
+}
+
+.header-title, .header-breadcrumb {
+    float: left;
+}
+
+.header-user-menu {
+    float: right;
+}
+
+.header-title h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-breadcrumb ul li {
+    display: inline-block;
+}
+
+.header-title, .header-breadcrumb {
+    float: left;
+}
+
+.header-user-menu {
+    float: right;
+}
+
+.nav-menu, .options-from-menu {
+    width: 20%;
+    float: left;
+}
+
+.option-detail {
+    width: 60%;
+    float: left;
+}
