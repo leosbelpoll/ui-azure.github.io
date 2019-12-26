@@ -19,10 +19,14 @@ ul {
 header {
     overflow: auto;
     border-bottom: solid 2px #F3F3F3;
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .header-title {
     width: 20%;
+    padding-left: 13px;
 }
 
 .header-breadcrumb, .header-user-menu {
@@ -36,6 +40,7 @@ header {
 .header-user-menu {
     float: right;
     text-align: end;
+    padding-right: 13px;
 }
 
 .header-title h1 {
